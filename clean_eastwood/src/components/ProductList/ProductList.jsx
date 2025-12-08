@@ -93,8 +93,14 @@ const ProductList = () => {
                     <p className="error-message">{error}</p>
                 ):(
                     productos.map((producto) => (
-                        <div className="product-card"
-                    )
+                        <div className="product-card" key={producto.id}>
+                            <img src={producto.image} 
+                            alt={producto.nombre} 
+                            className="product-image" /> 
+                            <h3 >{producto.nombre}</h3>
+                            <p >{producto.precio}</p>
+                        </div>
+                    ))
                 )}
         </main>
 
