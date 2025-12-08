@@ -1,0 +1,62 @@
+[
+  {
+    "id": 6,
+    "nombre": "Detergente para baños",
+    "categoria": "Detergentes",
+    "subcategoria": "Baños",
+    "descripcion": "Detergente líquido especializado para sanitarios y azulejos, elimina sarro y residuos de jabón.",
+    "image": "https://images.unsplash.com/photo-1588776814546-1e3f1b2e3e6f?auto=format&fit=crop&w=800&q=60",
+    "precio": 2200,
+    "tipo": "Detergente"
+  },
+  {
+    "id": 7,
+    "nombre": "Desinfectante cocina",
+    "categoria": "Desinfectantes",
+    "subcategoria": "Cocina",
+    "descripcion": "Desinfectante multiuso con acción antibacterial, ideal para mesones y electrodomésticos.",
+    "image": "https://serveiestacio.com/blog/10-mejores-productos-de-limpieza-para-banos/",
+    "precio": 2500,
+    "tipo": "Desinfectante"
+  },
+  {
+    "id": 8,
+    "nombre": "Desengrasante pisos",
+    "categoria": "Desengrasantes",
+    "subcategoria": "Pisos",
+    "descripcion": "Fórmula concentrada para remover grasa y manchas en pisos de cerámica y cemento.",
+    "image": "https://images.unsplash.com/photo-1606813902914-6e5c3b3f3d1b?auto=format&fit=crop&w=800&q=60",
+    "precio": 2800,
+    "tipo": "Desengrasante"
+  },
+  {
+    "id": 9,
+    "nombre": "Limpiavidrios desinfectante",
+    "categoria": "Desinfectantes",
+    "subcategoria": "Vidrios",
+    "descripcion": "Spray desinfectante para vidrios y espejos, elimina bacterias y deja brillo sin marcas.",
+    "image": "https://images.unsplash.com/photo-1616627989394-1e3f1b2e3e6f?auto=format&fit=crop&w=800&q=60",
+    "precio": 1900,
+    "tipo": "Desinfectante"
+  },
+  {
+    "id": 10,
+    "nombre": "Ambientador baños",
+    "categoria": "Ambientadores",
+    "subcategoria": "Baños",
+    "descripcion": "Ambientador en spray con fragancia fresca, diseñado para neutralizar olores en espacios reducidos.",
+    "image": "https://images.unsplash.com/photo-1588776814546-1e3f1b2e3e6f?auto=format&fit=crop&w=800&q=60",
+    "precio": 2100,
+    "tipo": "Ambientador"
+  },
+  {
+    "id": 11,
+    "nombre": "Ambientador cocina",
+    "categoria": "Ambientadores",
+    "subcategoria": "Cocina",
+    "descripcion": "Neutralizador de olores de comida con fragancia cítrica, ideal para cocinas y comedores.",
+    "image": "https://images.unsplash.com/photo-1606813902914-6e5c3b3f3d1b?auto=format&fit=crop&w=800&q=60",
+    "precio": 2300,
+    "tipo": "Ambientador"
+  }
+]
