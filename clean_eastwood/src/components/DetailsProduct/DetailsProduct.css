@@ -1,0 +1,165 @@
+/* =========================
+   DETALLES DE PRODUCTO
+========================= */
+.precio {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--primary);
+  margin: 6px 0;
+}
+
+/* =========================
+   CARRITO
+========================= */
+.carrito {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.carrito h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 26px;
+  color: var(--primary);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 8px;
+}
+
+.carrito table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+.carrito th {
+  background: var(--primary);
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.carrito td {
+  border-bottom: 1px solid #eee;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.img-carrito {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Botones cantidad */
+.qty-btn {
+  background: var(--accent);
+  border: none;
+  padding: 6px 10px;
+  margin: 0 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.qty-btn:hover { background: #e0b90f; }
+
+/* Botón eliminar */
+.carrito td button {
+  background: var(--danger);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.carrito td button:hover { background: #c0392b; }
+
+/* Total y botón de compra */
+.carrito-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.carrito-total .detalle p {
+  margin: 4px 0;
+  font-size: 16px;
+  color: var(--primary);
+}
+
+.carrito-total button {
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.carrito-total button:hover { background: var(--blue-dark); }
+
+/* =========================
+   CHECKOUT
+========================= */
+.checkout {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.checkout h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: var(--primary);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 8px;
+}
+
+.checkout form { display: flex; flex-direction: column; }
+
+.checkout label {
+  margin-top: 12px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.checkout input,
+.checkout select {
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.checkout button {
+  margin-top: 20px;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.checkout button:hover { background: var(--blue-dark); }
