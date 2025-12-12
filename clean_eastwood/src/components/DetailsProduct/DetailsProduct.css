@@ -1,165 +1,98 @@
-/* =========================
-   DETALLES DE PRODUCTO
-========================= */
-.precio {
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--primary);
-  margin: 6px 0;
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    color: #333;
+    flex-wrap: wrap;
 }
 
-/* =========================
-   CARRITO
-========================= */
-.carrito {
-  max-width: 900px;
-  margin: 40px auto;
-  background: #fff;
-  padding: 32px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+.product-details img {
+    max-width: 100%;
+    object-fit: cover;
 }
 
-.carrito h2 {
-  margin-top: 0;
-  margin-bottom: 24px;
-  font-size: 26px;
-  color: var(--primary);
-  border-bottom: 2px solid var(--accent);
-  padding-bottom: 8px;
+.product-details .image-small {
+    width: 80px;
+    height: 80px;
 }
 
-.carrito table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 24px;
+.product-infos {
+    flex: 1;
+    max-width: 600px;
 }
 
-.carrito th {
-  background: var(--primary);
-  color: #fff;
-  padding: 12px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
+.product-infos h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.carrito td {
-  border-bottom: 1px solid #eee;
-  padding: 12px;
-  text-align: center;
-  font-size: 15px;
+.product-infos .price {
+    font-size: 28px;
+    color: #9893fb;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
-.img-carrito {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  border-radius: 6px;
+.product-infos .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
-/* Botones cantidad */
-.qty-btn {
-  background: var(--accent);
-  border: none;
-  padding: 6px 10px;
-  margin: 0 4px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
+.size-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .size-options button {
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s;
+  }
+
+  .size-options button:hover {
+  border-color: #333;
+  background-color: #eee;
 }
 
-.qty-btn:hover { background: #e0b90f; }
-
-/* Botón eliminar */
-.carrito td button {
-  background: var(--danger);
+/* Botón Añadir al carrito */
+.add-to-cart {
+  padding: 15px 20px;
+  background-color: #000;
   color: #fff;
   border: none;
-  padding: 6px 12px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.carrito td button:hover { background: #c0392b; }
-
-/* Total y botón de compra */
-.carrito-total {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--bg);
-  padding: 16px;
-  border-radius: 8px;
-}
-
-.carrito-total .detalle p {
-  margin: 4px 0;
-  font-size: 16px;
-  color: var(--primary);
-}
-
-.carrito-total button {
-  background: var(--blue);
-  color: #fff;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 6px;
-  cursor: pointer;
+  text-transform: uppercase;
   font-weight: bold;
-  font-size: 16px;
-}
-
-.carrito-total button:hover { background: var(--blue-dark); }
-
-/* =========================
-   CHECKOUT
-========================= */
-.checkout {
-  max-width: 600px;
-  margin: 40px auto;
-  background: #fff;
-  padding: 32px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-}
-
-.checkout h2 {
-  margin-top: 0;
-  margin-bottom: 24px;
-  font-size: 24px;
-  color: var(--primary);
-  border-bottom: 2px solid var(--accent);
-  padding-bottom: 8px;
-}
-
-.checkout form { display: flex; flex-direction: column; }
-
-.checkout label {
-  margin-top: 12px;
-  font-weight: bold;
-  color: var(--primary);
-}
-
-.checkout input,
-.checkout select {
-  padding: 10px;
-  margin-top: 6px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
-}
-
-.checkout button {
-  margin-top: 20px;
-  background: var(--blue);
-  color: #fff;
-  border: none;
-  padding: 12px;
-  border-radius: 6px;
   cursor: pointer;
-  font-weight: bold;
-  font-size: 16px;
+  transition: all 0.3s ;
 }
 
-.checkout button:hover { background: var(--blue-dark); }
+.add-to-cart:hover {
+    background-color: #333;
+}
+
+.product-infos .note {
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+/* Diseño responsive */
+@media (max-width: 1024px) {
+   
+  .product-infos {
+        max-width: 90%;
+    }
+}
+
